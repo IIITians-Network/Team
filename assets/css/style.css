@@ -1340,7 +1340,7 @@ section {
 	position: absolute;
   }
 }
-/*TEAM LEADERS CSS*/
+/*======================TEAM LEADERS CSS========================*/
 @media only screen and (max-width: 600px) and (min-width: 0px)  {
 .box{
 	transform:translate(-50%,-50%);
@@ -1352,34 +1352,7 @@ section {
 	box-shadow:0 5px 20px rgba(0,0,0,.3);
 	margin-top:90%;
 	margin-left:50%
-	
-}
-.social-icon li a{
-	position:relative;
-	display:block;
-	width:50px;
-	height:50px;
-	text-align:center;
-	background:white;
-	color:black;
-	margin:0px 5px;
-	border-radius:50%;
-	transition:0.5s;
-	transform:translateY(150px);
-	opacity:0;
-}
-.details{
-	color:black;
-	position:absolute;
-	bottom:0;
-	left:0;
-	background:white;
-	z-index:4;
-	width:100%;
-	height:100px;
-	box-sizing:border-box;
-	padding:10px; 
-}
+	}
 }
 @media only screen and (max-width: 3000px) and (min-width: 601px){
 .box{
@@ -1392,33 +1365,7 @@ section {
 	box-shadow:0 5px 20px rgba(0,0,0,.3);
 	margin-top:30%;
 	margin-left:50%;
-}
-.social-icon li a{
-	position:relative;
-	display:block;
-	width:50px;
-	height:50px;
-	text-align:center;
-	background:black;
-	color:white;
-	margin:0px 5px;
-	border-radius:50%;
-	transition:0.5s;
-	transform:translateY(150px);
-	opacity:0;
-}
-.details{
-	color:white;
-	position:absolute;
-	bottom:0;
-	left:0;
-	background:black;
-	z-index:4;
-	width:100%;
-	height:100px;
-	box-sizing:border-box;
-	padding:10px; 
-}
+	}
 }
 .imgBx{
 	position:absolute;
@@ -1481,7 +1428,32 @@ transition:0.5s;
 .box:hover .social-icon li:nth-child(5) a {
 	transition-delay:0.8s;
 }
-
+.social-icon li a{
+	position:relative;
+	display:block;
+	width:50px;
+	height:50px;
+	text-align:center;
+	background:black;
+	color:white;
+	margin:0px 5px;
+	border-radius:50%;
+	transition:0.5s;
+	transform:translateY(150px);
+	opacity:0;
+}
+.details{
+	color:white;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:black;
+	z-index:4;
+	width:100%;
+	height:100px;
+	box-sizing:border-box;
+	padding:10px; 
+}
 .details h2{
 	margin:10px 0 0;
 	padding:0;	
@@ -1492,8 +1464,8 @@ transition:0.5s;
 	color:#999999;
 	font-size:26px;
 }
-/*Team leaders css ends*/
-/*FOUNDERS SECTION CSS STYLINGS*/
+/*===================Team leaders css ends=========================*/
+/*===================FOUNDERS SECTION CSS STYLINGS==================*/
   @import url('https://fonts.googleapis.com/css?family=Droid+Sans')
 .card{
 	position:absolute;
@@ -1570,4 +1542,4 @@ height:50px;
 .flex-container{
 	flex-wrap:wrap;
 }
-/*CSS of founders section ends*/
+/*==================CSS of founders section ends============================*/
