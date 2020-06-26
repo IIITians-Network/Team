@@ -1340,3 +1340,128 @@ section {
 	position: absolute;
   }
 }
+/*TEAM LEADERS CSS*/
+@media only screen and (max-width: 600px) and (min-width: 0px)  {
+.box{
+	transform:translate(-50%,-50%);
+	width:300px;
+	height:400px;
+	background:#000;
+	border-radius:15px;
+	overflow:hidden;
+	box-shadow:0 5px 20px rgba(0,0,0,.3);
+	margin-top:90%;
+	margin-left:50%
+	
+}	
+}
+@media only screen and (max-width: 3000px) and (min-width: 601px){
+.box{
+	transform:translate(-50%,-50%);
+	width:300px;
+	height:400px;
+	background:#000;
+	border-radius:15px;
+	overflow:hidden;
+	box-shadow:0 5px 20px rgba(0,0,0,.3);
+	margin-top:30%;
+	margin-left:50%;
+}
+}
+.imgBx{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%; 
+	transition:0.5s;
+	z-index:2;
+	background:black;
+}
+.imgBx img{
+	transition:0.5s;
+	width:100%;
+	height:100%;
+
+}
+.box:hover .imgBx img{
+	opacity:0.8;
+}
+.social-icon{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	z-index:3; 
+	display:flex;
+	margin:0;
+	padding:0;
+	
+}
+.social-icon li{
+	list-style:none;
+
+}
+.social-icon li a{
+	position:relative;
+	display:block;
+	width:50px;
+	height:50px;
+	text-align:center;
+	background:black;
+	color:white;
+	margin:0px 5px;
+	border-radius:50%;
+	transition:0.5s;
+	transform:translateY(150px);
+	opacity:0;
+}
+.box:hover .social-icon li a {
+	transform:translateY(50px);
+	opacity:1;
+}
+.box .social-icon li a .fa{
+transition:0.5s;
+	font-size:24px;
+	line-height:50px;
+}
+.box .social-icon li a:hover .fa{
+	transform:rotateY(360deg)
+}
+.box:hover .social-icon li:nth-child(1) a {
+	transition-delay:0s;
+}
+.box:hover .social-icon li:nth-child(2) a {
+	transition-delay:0.2s;
+}
+.box:hover .social-icon li:nth-child(3) a {
+	transition-delay:0.4s;
+}
+.box:hover .social-icon li:nth-child(4) a {
+	transition-delay:0.6s;
+}
+.box:hover .social-icon li:nth-child(5) a {
+	transition-delay:0.8s;
+}
+.details{
+	color:white;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:black;
+	z-index:4;
+	width:100%;
+	height:100px;
+	box-sizing:border-box;
+	padding:10px; 
+}
+.details h2{
+	margin:10px 0 0;
+	padding:0;	
+	text-align:center;
+}
+.details h2 span{
+	color:#999999;
+	font-size:26px;
+}
+/*Team leaders css ends*/
