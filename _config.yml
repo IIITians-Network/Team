@@ -1,0 +1,10 @@
+
+title: Team page
+email: rehasreekoneru@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: Rehasree
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
