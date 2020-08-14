@@ -1468,21 +1468,21 @@ font-family:sans-serif;
 }
 /*===================Team leaders css ends=========================*/
 /*===================FOUNDERS SECTION CSS STYLINGS==================*/
-@import url('https://fonts.googleapis.com/css?family=Droid+Sans')
+  @import url('https://fonts.googleapis.com/css?family=Droid+Sans')
 .card{
 	position:absolute;
-	top:70%;
+	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
 	width:320px;
+	background:#262626;
 	box-sizing:border-box;
-  transition:.5s;
-  }
+	transition:.5s;
+	}
 .img-thumbnail{
 	width:100%;
 	height:300px;
-  overflow:hidden;
-  border-radius: 50%;
+	overflow:hidden;
 }
 .img-thumbnail img{
 	width:100%;
@@ -1514,24 +1514,21 @@ height:50px;
 	 text-align:center;
 	 background:#fff;
 	 height:50px;
-	 color:#192F51;
+	 color:#262626;
 	 font-size:25px;
-	 padding-top: 6px;
+	 border-right:1px solid rgba(0,0,0,.5);
 }
 .card ul li a:hover{
-	background:#192F51;
-  color:white;
-  border-radius: 40%;
-  
+	background:black;
+	color:white;	
 }
 .card ul li:last-child a{
 	border-right:none;	
 }
 .content{
-	background:#192F51;
+	background:#000;
 	padding:20px 10px;
-  text-align:center;
-  border-radius:10%;
+	text-align:center;
 }
 .content h3{
 	margin:0;
