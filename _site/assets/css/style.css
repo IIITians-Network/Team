@@ -1485,11 +1485,10 @@ font-family:sans-serif;
   border-radius: 50%;
 }
 .img-thumbnail img{
-	max-width:100%;
+	width:100%;
 	transition:3s;
 	transform-origin:top right;
 }
-
 .card ul{
 	margin:0;
 	padding:0;
