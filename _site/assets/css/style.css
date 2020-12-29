@@ -1485,13 +1485,11 @@ font-family:sans-serif;
   border-radius: 50%;
 }
 .img-thumbnail img{
-	width:100%;
+	max-width:100%;
 	transition:3s;
 	transform-origin:top right;
 }
-.card:hover .img-thumbnail img{
-	transform:scale(1.1);
-}
+
 .card ul{
 	margin:0;
 	padding:0;
